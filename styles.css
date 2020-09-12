@@ -1,0 +1,198 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-size: 30px;
+}
+.menu{
+    margin-top: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    
+}
+a{
+    padding: 1em;
+    text-decoration: none;
+    color: #000000;
+}
+.first{
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+   
+}
+.col-2{
+    padding-left: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-2,.nav-2-child{
+    list-style-type: none;
+    display: inline;
+   
+}
+.nav-2{
+    margin: 0;
+    padding: 0;
+}
+.grey-txt{
+    color: #728391;
+    font-size: 14px;
+}
+.notes{
+    font-size: 14px;
+    font-weight: bold;
+}
+.reg-box{
+    width: 629px;
+    height: 97px;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    background-color: #00F241;
+}
+.space{
+    padding: 1em;
+}
+.register{
+    width: 250px;
+    height: 44px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: hidden;
+}
+.taka{
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+.more-info{
+    box-sizing: border-box;
+    width: 629px;
+    height: 371px;
+    margin-top: 1em;
+    padding: 1.5em;
+    background-color: #F8F8F9;
+}
+.wk-info{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+    color: #728391; 
+
+}
+.more-info2{
+    font-family:'Open Sans', sans-serif; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+.wrapper-2{
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #F8F8F9;
+    height: 400px;
+}
+.wrapper-2>.second{
+    overflow: hidden;
+}
+.coming-h{
+   
+    display: inline;
+    font-family:'Montserrat', sans-serif; 
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 40%;
+    margin-right: 40%;
+   
+}
+.more-w{
+    float: right;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+   
+}
+.wk-banner,h5{
+    font-family:'Montserrat', sans-serif; 
+    font-size: 14px;
+    font-weight: bold;
+}
+.blue{
+    color: #0062FF;
+    font-weight: bold;
+    padding: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    footer, .second {
+      display: block;
+      
+    }
+    
+  }
+.foot-nav,.foot-nav-child{
+    list-style-type:none;
+    padding: 0;
+   
+}
+.foot{
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.green{
+    color: #00F241;
+    font-size: 14px;
+    padding: 0;
+    
+
+}
+.ict-logo{
+    padding-top: 1em;
+}
+.nav-2-a{
+    padding-left: 0;
+    font-weight: bolder;
+    color: #728391;
+    font-size: 15px;
+}
+
+input{
+    padding: 1em;
+    width: 400px;
+    height: 15px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+   
+}
+
+.sub-btn{
+    margin-top: 1em;
+    width: 250px;
+    height: 25px;
+    background-color: black;
+    border: 1px solid #00F241;
+    color: #00F241;
+}
